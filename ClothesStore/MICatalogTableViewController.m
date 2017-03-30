@@ -11,6 +11,7 @@
 #import "MICartViewModel.h"
 #import "MIProductListTableViewController.h"
 #import "MICheckoutCartTableViewController.h"
+#import "MICategoryListTableViewCell.h"
 
 #import "Bolts.h"
 #import "MBProgressHUD.h"
@@ -87,12 +88,11 @@ NSString *const MICatalogCellIdentifier = @"MICatalogCell";
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MICatalogCellIdentifier forIndexPath:indexPath];
+    MICategoryListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MICatalogCellIdentifier forIndexPath:indexPath];
     
     if (indexPath.row < self.categoryArray.count) {
         NSString *category = [self.categoryArray objectAtIndex:indexPath.row];
-        cell.textLabel.text = category;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        [cell setupCellWithCategoryName:category];
     }
     
     return cell;

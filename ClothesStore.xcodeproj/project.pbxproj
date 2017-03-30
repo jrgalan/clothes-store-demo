@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3479600100978555FBC1F217 /* libPods-ClothesStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387EFAEA44BC503D5DE67070 /* libPods-ClothesStore.a */; };
+		C0801A841E8D068A008634F6 /* MICategoryListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801A831E8D068A008634F6 /* MICategoryListTableViewCell.m */; };
 		C0A15BA21E8B1A92009CB017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BA11E8B1A92009CB017 /* main.m */; };
 		C0A15BA51E8B1A92009CB017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BA41E8B1A92009CB017 /* AppDelegate.m */; };
 		C0A15BAB1E8B1A92009CB017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A15BA91E8B1A92009CB017 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 		1EB353251E16FFC5CF078DFF /* Pods-ClothesStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStore/Pods-ClothesStore.release.xcconfig"; sourceTree = "<group>"; };
 		387EFAEA44BC503D5DE67070 /* libPods-ClothesStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClothesStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B042AF61BD3DAF8E8D74DBBF /* Pods-ClothesStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStore/Pods-ClothesStore.debug.xcconfig"; sourceTree = "<group>"; };
+		C0801A821E8D068A008634F6 /* MICategoryListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICategoryListTableViewCell.h; sourceTree = "<group>"; };
+		C0801A831E8D068A008634F6 /* MICategoryListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICategoryListTableViewCell.m; sourceTree = "<group>"; };
 		C0A15B9D1E8B1A92009CB017 /* ClothesStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothesStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A15BA11E8B1A92009CB017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0A15BA31E8B1A92009CB017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,12 +202,14 @@
 		C0A15BDE1E8C305F009CB017 /* Table Cells */ = {
 			isa = PBXGroup;
 			children = (
+				C0801A821E8D068A008634F6 /* MICategoryListTableViewCell.h */,
+				C0801A831E8D068A008634F6 /* MICategoryListTableViewCell.m */,
+				C0A15BEA1E8CA109009CB017 /* MIProductListTableViewCell.h */,
+				C0A15BEB1E8CA109009CB017 /* MIProductListTableViewCell.m */,
 				C0A15BDF1E8C3089009CB017 /* MIProductInCartTableViewCell.h */,
 				C0A15BE01E8C3089009CB017 /* MIProductInCartTableViewCell.m */,
 				C0A15BE31E8C5D22009CB017 /* MICartTotalTableViewCell.h */,
 				C0A15BE41E8C5D22009CB017 /* MICartTotalTableViewCell.m */,
-				C0A15BEA1E8CA109009CB017 /* MIProductListTableViewCell.h */,
-				C0A15BEB1E8CA109009CB017 /* MIProductListTableViewCell.m */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				C0A15BE91E8C9873009CB017 /* UIColor+MIDefaultColors.m in Sources */,
 				C0A15BD41E8B3125009CB017 /* MIProductListTableViewController.m in Sources */,
 				C0A15BDD1E8B7682009CB017 /* MICartViewModel.m in Sources */,
+				C0801A841E8D068A008634F6 /* MICategoryListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,11 +44,18 @@ NSString *const MICatalogCellIdentifier = @"MICatalogCell";
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationItem.title = NSLocalizedString(@"Browse Categories", @"Browse Categories");
+    [self updateShoppingCartButton];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     self.navigationItem.title = @"";
+}
+
+- (void)updateShoppingCartButton {
+    UIBarButtonItem* rightButton = self.navigationItem.rightBarButtonItem;
+    UIImage *cartImage = [self.cartViewModel anyProductsInCart] ? [UIImage imageNamed:@"ic_add_shopping_cart"] :[UIImage imageNamed:@"ic_shopping_cart"];
+    [rightButton setImage:cartImage];
 }
 
 - (void)updateProductCatalog {

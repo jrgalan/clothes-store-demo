@@ -117,4 +117,8 @@
     return [self.productIDsWithQuantities objectForKey:productId];
 }
 
+- (BOOL)anyProductsInCart {
+    return self.productIDsInCart.count > 0;
+}
+
 @end

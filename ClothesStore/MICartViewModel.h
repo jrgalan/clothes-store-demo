@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)moveProductFromWishListToCartProductWithID:(NSNumber *)productId;
 
 - (NSNumber * _Nullable)quantityInCartForProductId:(NSNumber *)productId;
+- (BOOL)anyProductsInCart;
 
 @end
 

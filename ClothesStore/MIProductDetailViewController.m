@@ -91,6 +91,14 @@ NSString *const MIProductDetailToCartSegue = @"MIProductDetailToCartSegue";
     self.stockCountLabel.text = quantityTextForLabel;
     
     self.currentQuantitySelected = 1;
+    
+    [self updateShoppingCartButton];
+}
+
+- (void)updateShoppingCartButton {
+    UIBarButtonItem* rightButton = self.navigationItem.rightBarButtonItem;
+    UIImage *cartImage = [self.cartViewModel anyProductsInCart] ? [UIImage imageNamed:@"ic_add_shopping_cart"] :[UIImage imageNamed:@"ic_shopping_cart"];
+    [rightButton setImage:cartImage];
 }
 
 - (void)setCurrentQuantitySelected:(NSInteger)currentQuantitySelected {

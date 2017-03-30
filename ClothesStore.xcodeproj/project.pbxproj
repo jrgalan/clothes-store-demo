@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3479600100978555FBC1F217 /* libPods-ClothesStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387EFAEA44BC503D5DE67070 /* libPods-ClothesStore.a */; };
+		C0A15BA21E8B1A92009CB017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BA11E8B1A92009CB017 /* main.m */; };
+		C0A15BA51E8B1A92009CB017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BA41E8B1A92009CB017 /* AppDelegate.m */; };
+		C0A15BAB1E8B1A92009CB017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A15BA91E8B1A92009CB017 /* Main.storyboard */; };
+		C0A15BAD1E8B1A92009CB017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A15BAC1E8B1A92009CB017 /* Assets.xcassets */; };
+		C0A15BB01E8B1A92009CB017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A15BAE1E8B1A92009CB017 /* LaunchScreen.storyboard */; };
+		C0A15BBB1E8B1A92009CB017 /* ClothesStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BBA1E8B1A92009CB017 /* ClothesStoreTests.m */; };
+		C0A15BC81E8B1D37009CB017 /* MIProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BC71E8B1D37009CB017 /* MIProduct.m */; };
+		C0A15BCC1E8B2668009CB017 /* MICatalogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BCB1E8B2668009CB017 /* MICatalogTableViewController.m */; };
+		C0A15BD11E8B2B9E009CB017 /* MIProductCatalogViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BD01E8B2B9E009CB017 /* MIProductCatalogViewModel.m */; };
+		C0A15BD41E8B3125009CB017 /* MIProductListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BD31E8B3125009CB017 /* MIProductListTableViewController.m */; };
+		C0A15BD71E8B3988009CB017 /* MIProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BD61E8B3988009CB017 /* MIProductDetailViewController.m */; };
+		C0A15BDA1E8B74F4009CB017 /* MICheckoutCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BD91E8B74F4009CB017 /* MICheckoutCartTableViewController.m */; };
+		C0A15BDD1E8B7682009CB017 /* MICartViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BDC1E8B7682009CB017 /* MICartViewModel.m */; };
+		C0A15BE11E8C3089009CB017 /* MIProductInCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BE01E8C3089009CB017 /* MIProductInCartTableViewCell.m */; };
+		C0A15BE51E8C5D22009CB017 /* MICartTotalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BE41E8C5D22009CB017 /* MICartTotalTableViewCell.m */; };
+		C0A15BE91E8C9873009CB017 /* UIColor+MIDefaultColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BE81E8C9873009CB017 /* UIColor+MIDefaultColors.m */; };
+		C0A15BEC1E8CA109009CB017 /* MIProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A15BEB1E8CA109009CB017 /* MIProductListTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A15BB71E8B1A92009CB017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A15B951E8B1A92009CB017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A15B9C1E8B1A92009CB017;
+			remoteInfo = ClothesStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EB353251E16FFC5CF078DFF /* Pods-ClothesStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStore/Pods-ClothesStore.release.xcconfig"; sourceTree = "<group>"; };
+		387EFAEA44BC503D5DE67070 /* libPods-ClothesStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClothesStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B042AF61BD3DAF8E8D74DBBF /* Pods-ClothesStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStore/Pods-ClothesStore.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A15B9D1E8B1A92009CB017 /* ClothesStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothesStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A15BA11E8B1A92009CB017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A15BA31E8B1A92009CB017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0A15BA41E8B1A92009CB017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0A15BAA1E8B1A92009CB017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A15BAC1E8B1A92009CB017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A15BAF1E8B1A92009CB017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A15BB11E8B1A92009CB017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A15BB61E8B1A92009CB017 /* ClothesStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothesStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A15BBA1E8B1A92009CB017 /* ClothesStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesStoreTests.m; sourceTree = "<group>"; };
+		C0A15BBC1E8B1A92009CB017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A15BC61E8B1D37009CB017 /* MIProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIProduct.h; sourceTree = "<group>"; };
+		C0A15BC71E8B1D37009CB017 /* MIProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIProduct.m; sourceTree = "<group>"; };
+		C0A15BCA1E8B2668009CB017 /* MICatalogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICatalogTableViewController.h; sourceTree = "<group>"; };
+		C0A15BCB1E8B2668009CB017 /* MICatalogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICatalogTableViewController.m; sourceTree = "<group>"; };
+		C0A15BCF1E8B2B9E009CB017 /* MIProductCatalogViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIProductCatalogViewModel.h; sourceTree = "<group>"; };
+		C0A15BD01E8B2B9E009CB017 /* MIProductCatalogViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIProductCatalogViewModel.m; sourceTree = "<group>"; };
+		C0A15BD21E8B3125009CB017 /* MIProductListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIProductListTableViewController.h; sourceTree = "<group>"; };
+		C0A15BD31E8B3125009CB017 /* MIProductListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIProductListTableViewController.m; sourceTree = "<group>"; };
+		C0A15BD51E8B3988009CB017 /* MIProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIProductDetailViewController.h; sourceTree = "<group>"; };
+		C0A15BD61E8B3988009CB017 /* MIProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIProductDetailViewController.m; sourceTree = "<group>"; };
+		C0A15BD81E8B74F4009CB017 /* MICheckoutCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICheckoutCartTableViewController.h; sourceTree = "<group>"; };
+		C0A15BD91E8B74F4009CB017 /* MICheckoutCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICheckoutCartTableViewController.m; sourceTree = "<group>"; };
+		C0A15BDB1E8B7682009CB017 /* MICartViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICartViewModel.h; sourceTree = "<group>"; };
+		C0A15BDC1E8B7682009CB017 /* MICartViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICartViewModel.m; sourceTree = "<group>"; };
+		C0A15BDF1E8C3089009CB017 /* MIProductInCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIProductInCartTableViewCell.h; sourceTree = "<group>"; };
+		C0A15BE01E8C3089009CB017 /* MIProductInCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIProductInCartTableViewCell.m; sourceTree = "<group>"; };
+		C0A15BE31E8C5D22009CB017 /* MICartTotalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICartTotalTableViewCell.h; sourceTree = "<group>"; };
+		C0A15BE41E8C5D22009CB017 /* MICartTotalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICartTotalTableViewCell.m; sourceTree = "<group>"; };
+		C0A15BE71E8C9873009CB017 /* UIColor+MIDefaultColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MIDefaultColors.h"; sourceTree = "<group>"; };
+		C0A15BE81E8C9873009CB017 /* UIColor+MIDefaultColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MIDefaultColors.m"; sourceTree = "<group>"; };
+		C0A15BEA1E8CA109009CB017 /* MIProductListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIProductListTableViewCell.h; sourceTree = "<group>"; };
+		C0A15BEB1E8CA109009CB017 /* MIProductListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIProductListTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A15B9A1E8B1A92009CB017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3479600100978555FBC1F217 /* libPods-ClothesStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A15BB31E8B1A92009CB017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC4F4538B09C83A5416EA1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				387EFAEA44BC503D5DE67070 /* libPods-ClothesStore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0159A46C7E1360D6068C59C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B042AF61BD3DAF8E8D74DBBF /* Pods-ClothesStore.debug.xcconfig */,
+				1EB353251E16FFC5CF078DFF /* Pods-ClothesStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0A15B941E8B1A92009CB017 = {
+			isa = PBXGroup;
+			children = (
+				C0A15B9F1E8B1A92009CB017 /* ClothesStore */,
+				C0A15BB91E8B1A92009CB017 /* ClothesStoreTests */,
+				C0A15B9E1E8B1A92009CB017 /* Products */,
+				C0159A46C7E1360D6068C59C /* Pods */,
+				AEC4F4538B09C83A5416EA1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A15B9E1E8B1A92009CB017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15B9D1E8B1A92009CB017 /* ClothesStore.app */,
+				C0A15BB61E8B1A92009CB017 /* ClothesStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A15B9F1E8B1A92009CB017 /* ClothesStore */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BC51E8B1C8C009CB017 /* Model */,
+				C0A15BC91E8B2615009CB017 /* View */,
+				C0A15BCE1E8B2B69009CB017 /* View Model */,
+				C0A15BE61E8C9842009CB017 /* Categories */,
+				C0A15BA31E8B1A92009CB017 /* AppDelegate.h */,
+				C0A15BA41E8B1A92009CB017 /* AppDelegate.m */,
+				C0A15BA91E8B1A92009CB017 /* Main.storyboard */,
+				C0A15BAC1E8B1A92009CB017 /* Assets.xcassets */,
+				C0A15BAE1E8B1A92009CB017 /* LaunchScreen.storyboard */,
+				C0A15BB11E8B1A92009CB017 /* Info.plist */,
+				C0A15BA01E8B1A92009CB017 /* Supporting Files */,
+			);
+			path = ClothesStore;
+			sourceTree = "<group>";
+		};
+		C0A15BA01E8B1A92009CB017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BA11E8B1A92009CB017 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A15BB91E8B1A92009CB017 /* ClothesStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BBA1E8B1A92009CB017 /* ClothesStoreTests.m */,
+				C0A15BBC1E8B1A92009CB017 /* Info.plist */,
+			);
+			path = ClothesStoreTests;
+			sourceTree = "<group>";
+		};
+		C0A15BC51E8B1C8C009CB017 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BC61E8B1D37009CB017 /* MIProduct.h */,
+				C0A15BC71E8B1D37009CB017 /* MIProduct.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C0A15BC91E8B2615009CB017 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BE21E8C3E54009CB017 /* Controllers */,
+				C0A15BDE1E8C305F009CB017 /* Table Cells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C0A15BCE1E8B2B69009CB017 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BCF1E8B2B9E009CB017 /* MIProductCatalogViewModel.h */,
+				C0A15BD01E8B2B9E009CB017 /* MIProductCatalogViewModel.m */,
+				C0A15BDB1E8B7682009CB017 /* MICartViewModel.h */,
+				C0A15BDC1E8B7682009CB017 /* MICartViewModel.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		C0A15BDE1E8C305F009CB017 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BDF1E8C3089009CB017 /* MIProductInCartTableViewCell.h */,
+				C0A15BE01E8C3089009CB017 /* MIProductInCartTableViewCell.m */,
+				C0A15BE31E8C5D22009CB017 /* MICartTotalTableViewCell.h */,
+				C0A15BE41E8C5D22009CB017 /* MICartTotalTableViewCell.m */,
+				C0A15BEA1E8CA109009CB017 /* MIProductListTableViewCell.h */,
+				C0A15BEB1E8CA109009CB017 /* MIProductListTableViewCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		C0A15BE21E8C3E54009CB017 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BCA1E8B2668009CB017 /* MICatalogTableViewController.h */,
+				C0A15BCB1E8B2668009CB017 /* MICatalogTableViewController.m */,
+				C0A15BD21E8B3125009CB017 /* MIProductListTableViewController.h */,
+				C0A15BD31E8B3125009CB017 /* MIProductListTableViewController.m */,
+				C0A15BD51E8B3988009CB017 /* MIProductDetailViewController.h */,
+				C0A15BD61E8B3988009CB017 /* MIProductDetailViewController.m */,
+				C0A15BD81E8B74F4009CB017 /* MICheckoutCartTableViewController.h */,
+				C0A15BD91E8B74F4009CB017 /* MICheckoutCartTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C0A15BE61E8C9842009CB017 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C0A15BE71E8C9873009CB017 /* UIColor+MIDefaultColors.h */,
+				C0A15BE81E8C9873009CB017 /* UIColor+MIDefaultColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A15B9C1E8B1A92009CB017 /* ClothesStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A15BBF1E8B1A92009CB017 /* Build configuration list for PBXNativeTarget "ClothesStore" */;
+			buildPhases = (
+				F6196715BA53D30B569FF8AA /* [CP] Check Pods Manifest.lock */,
+				C0A15B991E8B1A92009CB017 /* Sources */,
+				C0A15B9A1E8B1A92009CB017 /* Frameworks */,
+				C0A15B9B1E8B1A92009CB017 /* Resources */,
+				094543E0BAAA1A0D93255BED /* [CP] Embed Pods Frameworks */,
+				803F95151AFD71E66EAF05BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClothesStore;
+			productName = ClothesStore;
+			productReference = C0A15B9D1E8B1A92009CB017 /* ClothesStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A15BB51E8B1A92009CB017 /* ClothesStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A15BC21E8B1A92009CB017 /* Build configuration list for PBXNativeTarget "ClothesStoreTests" */;
+			buildPhases = (
+				C0A15BB21E8B1A92009CB017 /* Sources */,
+				C0A15BB31E8B1A92009CB017 /* Frameworks */,
+				C0A15BB41E8B1A92009CB017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A15BB81E8B1A92009CB017 /* PBXTargetDependency */,
+			);
+			name = ClothesStoreTests;
+			productName = ClothesStoreTests;
+			productReference = C0A15BB61E8B1A92009CB017 /* ClothesStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A15B951E8B1A92009CB017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Miki Apps";
+				TargetAttributes = {
+					C0A15B9C1E8B1A92009CB017 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7H6XCXUGL8;
+						ProvisioningStyle = Automatic;
+					};
+					C0A15BB51E8B1A92009CB017 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0A15B9C1E8B1A92009CB017;
+					};
+				};
+			};
+			buildConfigurationList = C0A15B981E8B1A92009CB017 /* Build configuration list for PBXProject "ClothesStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A15B941E8B1A92009CB017;
+			productRefGroup = C0A15B9E1E8B1A92009CB017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A15B9C1E8B1A92009CB017 /* ClothesStore */,
+				C0A15BB51E8B1A92009CB017 /* ClothesStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A15B9B1E8B1A92009CB017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A15BB01E8B1A92009CB017 /* LaunchScreen.storyboard in Resources */,
+				C0A15BAD1E8B1A92009CB017 /* Assets.xcassets in Resources */,
+				C0A15BAB1E8B1A92009CB017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A15BB41E8B1A92009CB017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094543E0BAAA1A0D93255BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClothesStore/Pods-ClothesStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		803F95151AFD71E66EAF05BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClothesStore/Pods-ClothesStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6196715BA53D30B569FF8AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A15B991E8B1A92009CB017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A15BC81E8B1D37009CB017 /* MIProduct.m in Sources */,
+				C0A15BCC1E8B2668009CB017 /* MICatalogTableViewController.m in Sources */,
+				C0A15BD71E8B3988009CB017 /* MIProductDetailViewController.m in Sources */,
+				C0A15BDA1E8B74F4009CB017 /* MICheckoutCartTableViewController.m in Sources */,
+				C0A15BE11E8C3089009CB017 /* MIProductInCartTableViewCell.m in Sources */,
+				C0A15BA51E8B1A92009CB017 /* AppDelegate.m in Sources */,
+				C0A15BA21E8B1A92009CB017 /* main.m in Sources */,
+				C0A15BD11E8B2B9E009CB017 /* MIProductCatalogViewModel.m in Sources */,
+				C0A15BEC1E8CA109009CB017 /* MIProductListTableViewCell.m in Sources */,
+				C0A15BE51E8C5D22009CB017 /* MICartTotalTableViewCell.m in Sources */,
+				C0A15BE91E8C9873009CB017 /* UIColor+MIDefaultColors.m in Sources */,
+				C0A15BD41E8B3125009CB017 /* MIProductListTableViewController.m in Sources */,
+				C0A15BDD1E8B7682009CB017 /* MICartViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A15BB21E8B1A92009CB017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A15BBB1E8B1A92009CB017 /* ClothesStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A15BB81E8B1A92009CB017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A15B9C1E8B1A92009CB017 /* ClothesStore */;
+			targetProxy = C0A15BB71E8B1A92009CB017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A15BA91E8B1A92009CB017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A15BAA1E8B1A92009CB017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A15BAE1E8B1A92009CB017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A15BAF1E8B1A92009CB017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A15BBD1E8B1A92009CB017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0A15BBE1E8B1A92009CB017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A15BC01E8B1A92009CB017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B042AF61BD3DAF8E8D74DBBF /* Pods-ClothesStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7H6XCXUGL8;
+				INFOPLIST_FILE = ClothesStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.miki.ClothesStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0A15BC11E8B1A92009CB017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB353251E16FFC5CF078DFF /* Pods-ClothesStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7H6XCXUGL8;
+				INFOPLIST_FILE = ClothesStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.miki.ClothesStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0A15BC31E8B1A92009CB017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClothesStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.miki.ClothesStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClothesStore.app/ClothesStore";
+			};
+			name = Debug;
+		};
+		C0A15BC41E8B1A92009CB017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClothesStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.miki.ClothesStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClothesStore.app/ClothesStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A15B981E8B1A92009CB017 /* Build configuration list for PBXProject "ClothesStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A15BBD1E8B1A92009CB017 /* Debug */,
+				C0A15BBE1E8B1A92009CB017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A15BBF1E8B1A92009CB017 /* Build configuration list for PBXNativeTarget "ClothesStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A15BC01E8B1A92009CB017 /* Debug */,
+				C0A15BC11E8B1A92009CB017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A15BC21E8B1A92009CB017 /* Build configuration list for PBXNativeTarget "ClothesStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A15BC31E8B1A92009CB017 /* Debug */,
+				C0A15BC41E8B1A92009CB017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A15B951E8B1A92009CB017 /* Project object */;
+}
